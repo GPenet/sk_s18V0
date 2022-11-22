@@ -2133,7 +2133,7 @@ void G17B::Go_7_11_18() {// 7 clues limit 11 clues
 					Ac3 ^= bit3; //clear bit
 					cb3n3.bf12 |= bit3;
 					myb12 = cb3n3.bf12;
-					cb3n3.ncl = 11;
+					cb3n3.ncl = 10;
 					cb3n3.cbs.Add(cell3);
 					cb3n3.g2t = guah54_2.GetG2(myb12);
 					cb3n3.g3t = guah54_2.GetG3(myb12);
